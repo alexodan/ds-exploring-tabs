@@ -1,4 +1,37 @@
-# React + TypeScript + Vite
+# Exploring Design Systems
+
+This repo explores different design systems using one component: Tabs
+
+The idea is to get familiar with a few implementations and their APIs
+
+- Understand the philosophy of design systems
+- Weight the different approaches on how to build UI components
+
+To get started I'll be using
+
+## Carbon (IBM): https://carbondesignsystem.com/components/tabs/usage
+
+### Comments
+
+Right off the bat, you need to install SASS and import CSS styles to get the Carbon styles applied in your components like so:
+
+```css
+@use '@carbon/react';
+/* or an specific component */
+@use '@carbon/react/';
+```
+
+### Resources
+
+https://medium.com/carbondesign/moving-forward-on-deprecating-carbon-components-and-carbon-components-react-4f2f0c3d8448
+
+## Material UI: https://mui.com/material-ui/react-tabs/
+
+### Resources
+
+## Radix UI: https://www.radix-ui.com/primitives/docs/components/tabs
+
+## Built with React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
