@@ -7,9 +7,18 @@ The idea is to get familiar with a few implementations and their APIs
 - Understand the philosophy of design systems
 - Weight the different approaches on how to build UI components
 
-To get started I'll be using
+To run the project locally:
 
-## Carbon (IBM): https://carbondesignsystem.com/components/tabs/usage
+```bash
+npm install
+npm run dev
+```
+
+To get started I'll be using these libraries
+
+## Carbon (IBM)
+
+Link https://carbondesignsystem.com/components/tabs/usage
 
 ### Comments
 
@@ -23,26 +32,23 @@ Right off the bat, you need to install SASS and import CSS styles to get the Car
 
 ### Resources
 
-https://medium.com/carbondesign/moving-forward-on-deprecating-carbon-components-and-carbon-components-react-4f2f0c3d8448
+- https://medium.com/carbondesign/moving-forward-on-deprecating-carbon-components-and-carbon-components-react-4f2f0c3d8448
 
-## Material UI: https://mui.com/material-ui/react-tabs/
+## Material UI
+
+Link https://mui.com/material-ui/react-tabs/
 
 ### Resources
 
-## Radix UI: https://www.radix-ui.com/primitives/docs/components/tabs
+- TBD
+
+## Radix UI
+
+Link https://www.radix-ui.com/primitives/docs/components/tabs
 
 **Something interesting:**
 
 Using module.css in the Radix component leaks the styles affecting other components outside the file, I wonder if it has to do with this https://github.com/vitejs/vite/discussions/11844 or I'm doing something wrong here.
-
-## Built with React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 ## Expanding the ESLint configuration
 
