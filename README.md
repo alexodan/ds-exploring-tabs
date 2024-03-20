@@ -31,6 +31,10 @@ https://medium.com/carbondesign/moving-forward-on-deprecating-carbon-components-
 
 ## Radix UI: https://www.radix-ui.com/primitives/docs/components/tabs
 
+**Something interesting:**
+
+Using module.css in the Radix component leaks the styles affecting other components outside the file, I wonder if it has to do with this https://github.com/vitejs/vite/discussions/11844 or I'm doing something wrong here.
+
 ## Built with React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
