@@ -1,7 +1,7 @@
 import { Tab, TabPanel, TabPanels, Tabs, TabList } from '@carbon/react'
 import './carbon.scss'
 
-export default function MyComponent() {
+export default function TabsWithCarbon() {
   return (
     <>
       <h2>Tabs with Carbon (IBM)</h2>
